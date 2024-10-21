@@ -1,0 +1,627 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Hai",
+        "Pagi",
+        "Siang",
+        "Sist",
+        "P",
+        "Min",
+        "Halo",
+        "Hai min",
+        "Hai kak",
+        "Halo admin",
+        "Hai, bot!.",
+        "Halo, chatbot. Bagaimana cara menggunakan layanan ini?",
+        "Hai, AI cerdas. Tolong bantu saya mencari informasi tentang permasalahan kulit saya.",
+        "Selamat pagi! Saya butuh bantuan dari Anda sekarang.",
+        "Halo, virtual assistant. Apa kabar?",
+        "Hai, chatbot. Saya ingin mengajukan keluhan tentang layanan Anda.",
+        "Selamat datang, bot. Bagaimana cara menghubungi layanan pelanggan Anda?",
+        "Selamat Pagi kak",
+        "Selamat Malam kak",
+        "Selamat sore min",
+        "Hei, saya butuh bantuan.",
+        "Halo, punya pertanyaan nih.",
+        "Hai, ada sesuatu yang ingin saya tanyakan.",
+        "Yo, apa kabar? Saya ada masalah nih.",
+        "Eh, ada yang ingin saya diskusikan.",
+        "Halo, bisa tolong bantu saya?",
+        "Hei, saya punya pertanyaan.",
+        "Hai, saya agak bingung, bisa dibantu?",
+        "Halo, saya butuh panduan.",
+        "Yo, ada yang bisa saya tanyakan tentang layanan ini?"
+      ],
+      "responses": [
+        "Halo, terima kasih telah menghubungi SmartSkin. Perkenalkan, Saya SmartSkin yang akan membantu Anda dalam menangani permasalahan kulit Anda. Ada yang dapat saya bantu?",
+        "Hai, aku SmartSkin yang akan membantu kamu dalam menangani permasalahan kulit Anda di SmartSkin. Apa yang ingin kamu ketahui?",
+        "Halo, kenalin aku SmartSkin! Aku disini akan membantu kamu untuk menjawab semua pertanyaan permasalahan kulit kamu. Silakan ajukan pertanyaan kamu"
+      ]
+    },
+    {
+      "tag": "skintype",
+      "patterns": ["Saya ingin bertanya mengenai skintype "],
+      "responses": [
+        "Halo, terimakasih sudah menghubungi kami, saya SmartSkin akan membantu anda mengenai skintype"
+      ]
+    },
+    {
+      "tag": "skintipe berminyak1",
+      "patterns": ["Kulit saya cenderung berminyak"],
+      "responses": [
+        "Terima kasih telah berbagi informasi tentang jenis kulit Anda. Untuk mengatasi kulit berminyak, disarankan menggunakan produk perawatan yang mengandung salisilat asam. Produk tersebut dapat membantu mengurangi kilap pada wajah dan mencegah jerawat.",
+        "Paham. Kulit berminyak membutuhkan perhatian khusus. Saya merekomendasikan penggunaan produk dengan kandungan salisilat asam untuk mengontrol produksi minyak dan menjaga kelembapan kulit.",
+        "Duly noted. Untuk kulit berminyak, saya sarankan mencari produk perawatan yang mengandung salisilat asam. Bahan ini efektif mengurangi minyak berlebih dan menjaga kulit tetap sehat.",
+        "Terimakasih atas informasinya. Agar dapat mengatasi kulit berminyak, saya merekomendasikan penggunaan produk dengan kandungan salisilat asam. Hal ini dapat membantu mengontrol minyak dan mencegah munculnya jerawat.",
+        "Saya mengerti bahwa kulit berminyak bisa menjadi tantangan. Saran saya adalah mencari produk perawatan yang mengandung salisilat asam. Bahan ini dapat membantu mengurangi kilap dan merawat kulit secara efektif."
+      ]
+    },
+    {
+      "tag": "skintipe_normal1",
+      "patterns": [
+        "Saya memiliki kulit normal.",
+        "Kulit saya tergolong normal.",
+        "Jenis kulit saya adalah normal.",
+        "Kulit saya cenderung normal.",
+        "Saya memiliki kulit yang tidak terlalu kering atau berminyak."
+      ],
+      "responses": [
+        "Itu bagus! Kulit normal cenderung tidak terlalu berminyak atau terlalu kering. Anda dapat menggunakan produk perawatan kulit umum yang cocok untuk jenis kulit ini. Apakah Anda memiliki masalah kulit tertentu yang ingin Anda perbaiki?"
+      ]
+    },
+    {
+      "tag": "skintipe kombinasi1",
+      "patterns": [
+        "Kulit saya kombinasi, berminyak di beberapa area dan kering di area lain"
+      ],
+      "responses": [
+        "Kulit kombinasi memerlukan perhatian khusus. Saya merekomendasikan produk perawatan yang dapat mengatasi kedua masalah ini. Misalnya, gunakan pembersih lembut dan pelembap non-komedogenik untuk menjaga keseimbangan kulit Anda"
+      ]
+    },
+    {
+      "tag": "skintipe1",
+      "patterns": ["Bagaimana saya bisa mengetahui jenis kulit saya?"],
+      "responses": [
+        "Anda dapat menentukan jenis kulit Anda dengan cara mengamati tanda-tanda seperti kilap berlebih, ketegangan, atau permasalahan kulit tertentu. Anda juga dapat berkonsultasi dengan ahli kecantikan jika perlu.",
+        "Perhatikan tanda-tanda seperti kilap, ketegangan, atau permasalahan kulit untuk mengetahui jenis kulit Anda. Konsultasikan dengan ahli kecantikan untuk informasi lebih lanjut.",
+        "Cermati ciri-ciri seperti kilap berlebih, ketegangan kulit, atau masalah kulit tertentu untuk mengetahui jenis kulit Anda. Jika masih bingung, konsultasikan dengan ahli kecantikan.",
+        "Mengetahui jenis kulit bisa dilakukan dengan melihat tanda-tanda seperti kilap kulit, ketegangan, atau masalah kulit spesifik. Jangan ragu untuk mendiskusikan hal ini dengan ahli kecantikan.",
+        "Amati ciri-ciri kulit Anda seperti kilap, ketegangan, atau masalah kulit tertentu untuk mengidentifikasi jenis kulit Anda. Jika perlu, dapatkan saran lebih lanjut dari ahli kecantikan."
+      ]
+    },
+    {
+      "tag": "skintipe_berjerawat1",
+      "patterns": ["Saya sering mengalami jerawat, apa jenis kulit saya?"],
+      "responses": [
+        "Jika Anda sering mengalami jerawat, kemungkinan besar jenis kulit Anda cenderung berminyak. Pertimbangkan untuk menggunakan produk yang mengendalikan produksi minyak dan membersihkan pori-pori.",
+        "Ketika Anda sering mengalami jerawat, itu bisa menunjukkan kulit berminyak. Pertimbangkan untuk menggunakan produk perawatan kulit yang dapat mengontrol minyak dan menjaga kebersihan pori-pori.",
+        "Jerawat sering terjadi pada kulit berminyak. Saya sarankan Anda menggunakan produk yang dapat mengurangi minyak dan menjaga kebersihan kulit secara menyeluruh.",
+        "Jika Anda sering mengalami jerawat, bisa jadi kulit Anda cenderung berminyak. Gunakan produk perawatan yang dirancang khusus untuk mengontrol minyak dan mengatasi masalah jerawat."
+      ]
+    },
+
+    {
+      "tag": "skintipe2",
+      "patterns": ["Apa perbedaan antara kulit kering dan kulit dehidrasi?"],
+      "responses": [
+        "Kulit kering dan dehidrasi sering disalahartikan. Kulit kering adalah jenis kulit, sementara dehidrasi adalah kondisi. Dehidrasi dapat memengaruhi semua jenis kulit, termasuk kulit berminyak."
+      ]
+    },
+    {
+      "tag": "skintipe3",
+      "patterns": [
+        "Saya merasa kulit saya terasa ketat, apa yang sebaiknya saya lakukan?"
+      ],
+      "responses": [
+        "Kulit yang terasa ketat mungkin tanda kulit kering. Gunakan pelembap yang efektif untuk mengatasi ketegangan ini"
+      ]
+    },
+    {
+      "tag": "skintipe kombinasi2",
+      "patterns": ["Apa yang disebut kulit kombinasi?"],
+      "responses": [
+        "Kulit kombinasi adalah kombinasi dari beberapa jenis kulit. Perawatan harus mencakup kebutuhan setiap jenis kulit tersebut"
+      ]
+    },
+    {
+      "tag": "skintipe4",
+      "patterns": [
+        "Bagaimana cara mengetahui jenis kulit saya tanpa bantuan profesional?"
+      ],
+      "responses": [
+        "Anda dapat mengidentifikasi jenis kulit Anda dengan memerhatikan tanda-tanda seperti minyak berlebih, keringat, atau permasalahan kulit lainnya"
+      ]
+    },
+    {
+      "tag": "skintipe5",
+      "patterns": ["Apa yang dimaksud dengan tekstur kulit?"],
+      "responses": [
+        "Tekstur kulit merujuk pada tampilan dan permukaan kulit. Hal ini dapat berubah seiring waktu"
+      ]
+    },
+    {
+      "tag": "skintipe berminyak2",
+      "patterns": ["Bagaimana cara merawat kulit berminyak?"],
+      "responses": [
+        "Perawatan kulit berminyak melibatkan pengendalian minyak berlebih dan pembersihan yang baik. Gunakan produk non-komedogenik untuk menghindari penyumbatan pori-pori"
+      ]
+    },
+    {
+      "tag": "skintipe alami",
+      "patterns": ["Apa itu perawatan kulit alami?"],
+      "responses": [
+        "Perawatan kulit alami menggunakan bahan-bahan alami seperti minyak alami dan ekstrak tumbuhan untuk merawat kulit Anda"
+      ]
+    },
+    {
+      "tag": "skintipe sensitif",
+      "patterns": ["Apakah perawatan kulit yang cocok untuk kulit sensitif?"],
+      "responses": [
+        "Kulit sensitif rentan terhadap iritasi. Perawatan kulit yang mengandung bahan-bahan lembut seperti chamomile atau lidah buaya bisa membantu menjaga kenyamanan kulit Anda",
+        "Kulit sensitif membutuhkan perawatan yang lembut. Pastikan produk yang Anda gunakan tidak mengandung pewangi atau bahan-bahan yang dapat menyebabkan iritasi"
+      ]
+    },
+    {
+      "tag": "skintipe normal2",
+      "patterns": ["Apa itu kulit normal dan apa yang dibutuhkannya?"],
+      "responses": [
+        "Kulit normal adalah kulit yang sehat dan seimbang. Perawatan yang baik termasuk pembersihan, pelembapan, dan perlindungan dari sinar matahari. Kami merekomendasikan produk ini untuk Anda..."
+      ]
+    },
+    {
+      "tag": "skintipe kering",
+      "patterns": [
+        "Saya ingin bertanya bagaimana cara mengindentifikasi kulit kering?"
+      ],
+      "responses": [
+        "Paham, kulit kering membutuhkan kelembapan ekstra. Saya merekomendasikan produk perawatan yang mengandung asam hialuronat atau minyak alami seperti minyak argan untuk melembapkan kulit Anda"
+      ]
+    },
+    {
+      "tag": "produk",
+      "patterns": ["Produk kulit berminyak"],
+      "responses": [
+        "Produk <br> <img src=https://images.soco.id/6fa8ba7d-14b6-4017-b1a3-6f6ff016a9d3-.jpg width=400 height=350 alt=kulitberminyak/> <br>Saya merekomendasikan produk Oily Skin Cleanser. Ini adalah pembersih wajah yang dirancang khusus untuk kulit berminyak. Produk ini membantu mengontrol minyak berlebih dan menjaga kulit tetap segar. Anda dapat menemukan informasi lebih lanjut dan membelinya dengan mengklik tautan di bawah ini. Link Produk : <a href= https://www.sociolla.com/product/7926-oily-skin-cleanser target= _blank > https://www.sociolla.com/product/7926-oily-skin-cleanser</a> "
+      ]
+    },
+    {
+      "tag": "produk1",
+      "patterns": ["Produk kulit berminyak dan berjerawat"],
+      "responses": [
+        "Produk <br> <img src=https://images.soco.id/41d5c270-349a-4c03-ac6d-16e99dd12249-.jpg width=400 height=350 alt=kulitberminyak/> <br>Untuk jenis kulit berminyak, saya merekomendasikan produk B5 Acne Serum. Ini adalah serum yang dirancang khusus untuk mengatasi masalah kulit berminyak dan jerawat. Serum ini membantu mengurangi kilap kulit, membersihkan pori-pori, dan mencegah jerawat. Anda dapat menemukan informasi lebih lanjut dan membelinya dengan mengklik tautan di bawah ini. Link Produk : <a href= https://www.sociolla.com/face-serum/73201-b5-acne-serum target= _blank > https://www.sociolla.com/face-serum/73201-b5-acne-serum</a> "
+      ]
+    },
+    {
+      "tag": "produk2",
+      "patterns": ["Produk untuk kulit saya yang berminyak"],
+      "responses": [
+        "Produk <br> <img src=https://images.soco.id/6e8957cd-1434-40a9-937a-65e1aa5d7a41-.jpg width=400 height=350 alt=kulitberminyak/> <br>Untuk jenis kulit berminyak, saya merekomendasikan produk Super Volcanic Pore Clay Mask 2X. Ini adalah masker lumpur yang dapat membantu mengendalikan minyak berlebih pada kulit dan membersihkan pori-pori. Gunakan masker ini secara teratur untuk hasil yang optimal. Anda dapat menemukan informasi lebih lanjut dan membelinya dengan mengklik tautan di bawah ini. Link Produk : <a href= https://www.sociolla.com/clay-mask/71801-super-volcanic-pore-clay-mask-2x target= _blank > https://www.sociolla.com/clay-mask/71801-super-volcanic-pore-clay-mask-2x</a> "
+      ]
+    },
+    {
+      "tag": "produk3",
+      "patterns": ["Saya membutuhkan produk untuk kulit saya yang berminyak"],
+      "responses": [
+        "Produk <br> <img src=https://images.soco.id/3f794f71-4ed0-4262-a13b-cfb82bd280b2-image-0-1627354259406 width=400 height=350 alt=kulitberminyak/> <br>Jika Anda memiliki kulit berminyak, saya merekomendasikan Miraculous Refining Toner. Toner ini dirancang khusus untuk kulit berminyak dan dapat membantu mengontrol minyak berlebih serta membersihkan pori-pori. Anda bisa menemukan lebih banyak informasi dan membeli toner ini dengan mengklik tautan di bawah ini. Link Produk : <a href= https://www.sociolla.com/toner/10422-miraculous-refining-toner target= _blank > https://www.sociolla.com/toner/10422-miraculous-refining-toner</a> "
+      ]
+    },
+    {
+      "tag": "produk4",
+      "patterns": ["Rekomendasi produk untuk kulit saya yang berjerawat"],
+      "responses": [
+        "Produk <br> <img src=https://images.soco.id/07fd37db-d211-4f6c-bcdb-a55242af1983-.jpg width=400 height=350 alt=kulitberjerawat/> <br>Untuk merawat kulit berjerawat, saya merekomendasikan Face Toner Cica Series. Toner ini dirancang khusus untuk membantu merawat kulit yang berjerawat dan sensitif. Produk ini dapat membantu mengurangi peradangan dan membantu kulit dalam proses penyembuhan. Anda bisa menemukan lebih banyak informasi dan membeli toner ini dengan mengklik tautan di bawah ini. Link Produk : <a href= https://www.sociolla.com/toner/14748-face-toner-cica-series target= _blank > https://www.sociolla.com/toner/14748-face-toner-cica-series</a> "
+      ]
+    },
+    {
+      "tag": "produk5",
+      "patterns": [
+        "Saya membutuhkan produk untuk membersihkan kulit saya yang berminyak"
+      ],
+      "responses": [
+        "Produk <br> <img src=https://images.soco.id/9f90e63c-e305-435b-8fa3-d668b1f08be2-.jpg width=400 height=350 alt=kulitberminyak/> <br>Untuk membersihkan kulit berminyak, saya merekomendasikan penggunaan Low pH Good Morning Cleanser. Cleansing gel ini efektif membersihkan kulit dan mengatur pH dengan baik. Anda dapat menemukan lebih banyak informasi dan membeli produk ini dengan mengklik tautan di bawah ini. Link Produk : <a href= https://www.sociolla.com/cleansing-gel/9205-low-ph-good-morning-cleanser target= _blank > https://www.sociolla.com/cleansing-gel/9205-low-ph-good-morning-cleanser</a> "
+      ]
+    },
+    {
+      "tag": "produk6",
+      "patterns": ["Produk untuk mengatasi kulit berminyak"],
+      "responses": [
+        "Produk <br> <img src=https://images.soco.id/5553f12a-9274-4bb1-919d-43176e3bd03d-image-0-1615875721267 width=400 height=350 alt=kulitberminyak/> <br>Untuk merawat kulit berminyak, saya merekomendasikan Oily Skin Bundle. Produk ini dirancang khusus untuk mengatasi masalah kulit berminyak. Anda dapat menemukan lebih banyak informasi dan membeli produk ini dengan mengklik tautan di bawah ini. Link Produk : <a href= https://www.sociolla.com/product/55956-oily-skin-bundle target= _blank > https://www.sociolla.com/product/55956-oily-skin-bundle</a> "
+      ]
+    },
+    {
+      "tag": "produk7",
+      "patterns": ["Produk untuk mengatasi kulit berminyak dan kombinasi"],
+      "responses": [
+        "Produk <br> <img src=https://images.soco.id/0d8510cb-7833-432b-80d3-6c05c56edce6-.jpg width=400 height=350 alt=kulitberminyak/> <br>Jika Anda memiliki kulit berminyak dan kombinasi, saya merekomendasikan Trial Kit for Combination to Dry Skin. Produk ini dapat membantu menjaga keseimbangan kulit Anda. Anda dapat menemukan lebih banyak informasi dan membeli produk ini dengan mengklik tautan di bawah ini. Link Produk : <a href= https://www.sociolla.com/skincare/69572-trial-kit-for-combi-dry-skin target= _blank > https://www.sociolla.com/skincare/69572-trial-kit-for-combi-dry-skin</a> "
+      ]
+    },
+    {
+      "tag": "produk8",
+      "patterns": ["Produk untuk mengatasi kulit berminyak dan berjerawat"],
+      "responses": [
+        "Produk <br> <img src=https://images.soco.id/eef3dd21-a388-4d87-bf4d-4db7020498de-.jpg width=400 height=350 alt=kulitberjerawat/> <br>Untuk kulit berminyak dan berjerawat, saya merekomendasikan Acnepair™ Purifying Toner. Produk ini dirancang khusus untuk membersihkan kulit berminyak dan membantu mengatasi masalah jerawat. Anda dapat menemukan lebih banyak informasi dan membeli produk ini dengan mengklik tautan di bawah ini. Link Produk : <a href= https://www.sociolla.com/toner/77571-acnepairtm-purifying-toner-100ml target= _blank > https://www.sociolla.com/toner/77571-acnepairtm-purifying-toner-100ml</a> "
+      ]
+    },
+    {
+      "tag": "produk9",
+      "patterns": ["Rekomendasi pembersih wajah"],
+      "responses": [
+        "Produk <br> <img src=https://images.soco.id/7e7a9020-f1f6-44c5-961a-5510ebb9c60c-.jpg width=400 height=350 alt=pembersih/> <br>Saya merekomendasikan produk Super Clean Foam Cleanser. Ini adalah pembersih wajah yang baik untuk membersihkan kulit Anda. Anda dapat menemukan informasi lebih lanjut dan membelinya dengan mengklik tautan di bawah ini. Link Produk : <a href= https://www.sociolla.com/face-wash/63467-super-clean-foam-cleanser target= _blank > https://www.sociolla.com/face-wash/63467-super-clean-foam-cleanser</a> "
+      ]
+    },
+    {
+      "tag": "produk10",
+      "patterns": ["Rekomendasikan produk untuk kulit sensitif"],
+      "responses": [
+        "Produk <br> <img src=https://images.soco.id/82802fea-38ed-433f-8b65-7593530df5af-.jpg width=400 height=350 alt=kulitsensitif/> <br>Saya merekomendasikan produk Gentle Skin Cleanser. Ini adalah pembersih wajah yang sangat lembut dan cocok untuk kulit sensitif. Produk ini membantu menjaga kulit tetap bersih tanpa menyebabkan iritasi. Anda dapat menemukan informasi lebih lanjut dan membelinya dengan mengklik tautan di bawah ini. Link Produk : <a href= https://www.sociolla.com/face-wash/7914-gentle-skin-cleanser target= _blank > https://www.sociolla.com/face-wash/7914-gentle-skin-cleanser</a> "
+      ]
+    },
+    {
+      "tag": "produk11",
+      "patterns": ["Rekomendasikan produk untuk kulit saya yang kombinasi"],
+      "responses": [
+        "Produk <br> <img src=https://s3-ap-southeast-1.amazonaws.com/img-sociolla/img/p/1/2/9/5/1/12951-large_default.jpg width=400 height=350 alt=kulitkombinasi/> <br>Untuk kulit kombinasi, saya merekomendasikan White Secret Pure Treatment Essence. Essence ini cocok untuk kulit kombinasi yang memiliki kebutuhan berbeda pada berbagai area wajah. Produk ini membantu menjaga keseimbangan kulit Anda. Anda dapat menemukan lebih banyak informasi dan membeli produk ini dengan mengklik tautan di bawah ini. Link Produk : <a href= https://www.sociolla.com/essence/7093-white-secret-pure-treatment-essence target= _blank > https://www.sociolla.com/essence/7093-white-secret-pure-treatment-essence</a> "
+      ]
+    },
+    {
+      "tag": "produk12",
+      "patterns": ["Produk untuk kulit yang kombinasi"],
+      "responses": [
+        "Produk <br> <img src=https://images.soco.id/91899668998-1596422356786.png width=400 height=350 alt=kulitkombinasi/> <br>Untuk merawat kulit kombinasi, saya merekomendasikan Fresh Skin Apricot Scrub. Scrub eksfoliator ini cocok untuk kulit kombinasi karena membantu mengangkat sel kulit mati dan membersihkan pori-pori, sambil menjaga keseimbangan kulit. Anda dapat menemukan lebih banyak informasi dan membeli produk ini dengan mengklik tautan di bawah ini. Link Produk : <a href= https://www.sociolla.com/scrub-exfoliator/41677-fresh-skin-apricot-scrub target= _blank > https://www.sociolla.com/scrub-exfoliator/41677-fresh-skin-apricot-scrub</a> "
+      ]
+    },
+    {
+      "tag": "produk13",
+      "patterns": ["Produk untuk mengatasi kulit kombinasi"],
+      "responses": [
+        "Produk <br> <img src=https://images.soco.id/7acaa233-b8ef-41d4-9051-e96ca65fdcfa-.jpg width=400 height=350 alt=kulitombinasi/> <br>Untuk merawat kulit kombinasi, saya merekomendasikan produk Level Up Acne Treatment and Skin Hydration Set. Produk ini mengandung Niacinamide 15% Serum dan Hyaluronic Acid 3% Serum, yang dapat membantu mengatasi jerawat dan memberikan kelembapan pada kulit Anda. Anda dapat menemukan lebih banyak informasi dan membeli produk ini dengan mengklik tautan di bawah ini. Link Produk : <a href= https://www.sociolla.com/face-serum/71648-level-up-acne-treatment-and-skin-hydration-set-niacinamide-15-serum-and-hyaluronic-acid-3-serum target= _blank > https://www.sociolla.com/face-serum/71648-level-up-acne-treatment-and-skin-hydration-set-niacinamide-15-serum-and-hyaluronic-acid-3-serum</a> "
+      ]
+    },
+    {
+      "tag": "produk14",
+      "patterns": ["Rekomendasi produk pembersih wajah untuk kulit kombinasi"],
+      "responses": [
+        "Produk <br> <img src=https://images.soco.id/6cb1fef4-9cd6-4d29-9187-b41e46addde2-.jpg width=400 height=350 alt=kulitkombinasi/> <br>Untuk merawat kulit kombinasi, saya merekomendasikan produk Seaweed Deep Cleansing Gel Wash Face Wash. Produk ini dapat membantu membersihkan kulit secara mendalam dan menjaga keseimbangan kulit Anda. Anda dapat menemukan lebih banyak informasi dan membeli produk ini dengan mengklik tautan di bawah ini. Link Produk : <a href=https://www.sociolla.com/face-wash/73653-seaweed-deep-cleansing-gel-wash-face-wash target= _blank > https://www.sociolla.com/face-wash/73653-seaweed-deep-cleansing-gel-wash-face-wash</a> "
+      ]
+    },
+    {
+      "tag": "produk15",
+      "patterns": ["Produk untuk merawat kulit kering"],
+      "responses": [
+        "Produk <br> <img src=https://images.soco.id/702d6c40-e9cf-48b6-b373-305a930b5f0f-.jpg width=400 height=350 alt=kulitkering/> <br>Untuk merawat kulit kering, saya merekomendasikan penggunaan UV Moisture Milk sebagai tabir surya yang juga memberikan kelembapan ekstra untuk kulit Anda. Anda dapat menemukan lebih banyak informasi dan membeli produk ini dengan mengklik tautan di bawah ini. Link Produk : <a href=https://www.sociolla.com/sunscreen/7362-uv-moisture-milk- target= _blank > https://www.sociolla.com/sunscreen/7362-uv-moisture-milk-</a> "
+      ]
+    },
+    {
+      "tag": "produk16",
+      "patterns": ["Rekomendasikan produk untuk mengatasi kulit kering"],
+      "responses": [
+        "Produk <br> <img src=https://images.soco.id/864f16d2-1564-4bb0-8ba5-957c2154b524-image-0-1615971582528 width=400 height=350 alt=kulitkering/> <br>Untuk merawat kulit kering, saya merekomendasikan produk Gokujyun Ultimate Moisturizing Face Wash. Produk ini membantu menjaga kelembapan kulit Anda. Anda dapat menemukan lebih banyak informasi dan membeli produk ini dengan mengklik tautan di bawah ini. Link Produk : <a href=https://www.sociolla.com/face-wash/7369-gokujyun-ultimate-moisturizing-face-wash target= _blank > https://www.sociolla.com/face-wash/7369-gokujyun-ultimate-moisturizing-face-wash</a> "
+      ]
+    },
+    {
+      "tag": "produk17",
+      "patterns": ["Berikan rekomendasi produk untuk kulit saya yang kering"],
+      "responses": [
+        "Produk <br> <img src=https://images.soco.id/53fa68c7-cc23-4fa8-b77a-910d2c3c20a1-.jpg width=400 height=350 alt=kulitkering/> <br>Untuk merawat kulit kering, saya merekomendasikan produk YSB Glow Concentrate Treatment 2 Aqua Ceramide Multi-Probiome Hyaluronic Acid. Produk ini membantu menjaga kelembapan kulit Anda. Anda dapat menemukan lebih banyak informasi dan membeli produk ini dengan mengklik tautan di bawah ini. Link Produk : <a href=https://www.sociolla.com/face-cream-lotion/62679-ysb-glow-concentrate-treatment-2-aqua-ceramide-multi-probiome-hyaluronic-acid target= _blank > https://www.sociolla.com/face-cream-lotion/62679-ysb-glow-concentrate-treatment-2-aqua-ceramide-multi-probiome-hyaluronic-acid</a> "
+      ]
+    },
+    {
+      "tag": "produk18",
+      "patterns": ["Berikan rekomendasi produk untuk kulit saya yang kusam"],
+      "responses": [
+        "Produk <br> <img src=https://images.soco.id/0acd6733-a0d9-4b44-8628-0c8a27045028-.jpg width=400 height=350 alt=kulitkusam/> <br>Untuk merawat kulit yang kusam, saya merekomendasikan produk WhiteLab N10 Dose Serum dan mendapatkan Brightening Facial Wash 30gr secara gratis. Produk ini membantu mencerahkan kulit dan menghilangkan tampilan kusam. Anda dapat menemukan lebih banyak informasi dan membeli produk ini dengan mengklik tautan di bawah ini. Link Produk : <a href=https://www.sociolla.com/skin-care-set/78509-buy-1-get-1-free-whitelab-n10-dose-serum-free-brightening-facial-wash-30gr target= _blank > https://www.sociolla.com/skin-care-set/78509-buy-1-get-1-free-whitelab-n10-dose-serum-free-brightening-facial-wash-30gr</a> "
+      ]
+    },
+    {
+      "tag": "produk19",
+      "patterns": ["Berikan rekomendasi produk untuk semua jenis kulit"],
+      "responses": [
+        "Produk <br> <img src=https://images.soco.id/3c1bdf7d-d1af-4812-aa9f-44f015aba506-.jpg width=400 height=350 alt=kulitnormal/> <br>Untuk merawat semua jenis kulit, saya merekomendasikan produk Everpure Calm & Mild Barrier Facial Cleanser. Produk ini dirancang untuk menjaga keseimbangan kulit dan memberikan pembersihan yang lembut. Anda dapat menemukan lebih banyak informasi dan membeli produk ini dengan mengklik tautan di bawah ini. Link Produk : <a href=https://www.sociolla.com/face-wash/78785-everpure-calm-omild-barrier-facial-cleanser target= _blank > https://www.sociolla.com/face-wash/78785-everpure-calm-omild-barrier-facial-cleanser</a> "
+      ]
+    },
+    {
+      "tag": "produk20",
+      "patterns": ["Rekomendasikan produk untuk tipe kulit sensitif"],
+      "responses": [
+        "Produk <br> <img src=https://images.soco.id/1017d9bc-c25f-4b75-a0e5-046737b2c68c-.jpg width=400 height=350 alt=kulitsensitif/> <br>Untuk merawat kulit sensitif, saya merekomendasikan produk 5x Ceramide Low pH Cleanser. Produk ini sangat lembut dan cocok untuk kulit yang rentan terhadap iritasi. Anda dapat menemukan lebih banyak informasi dan membeli produk ini dengan mengklik tautan di bawah ini. Link Produk : <a href=https://www.sociolla.com/face-wash/64150-5x-ceramide-low-ph-cleanser target= _blank > https://www.sociolla.com/face-wash/64150-5x-ceramide-low-ph-cleanser</a> "
+      ]
+    },
+    {
+      "tag": "produk21",
+      "patterns": ["Produk untuk tipe kulit sensitif"],
+      "responses": [
+        "Produk <br> <img src=https://images.soco.id/95574333378-1592467089371.png width=400 height=350 alt=kulitsensitif/> <br>Untuk merawat kulit sensitif, saya merekomendasikan produk Madagascar Centella Ampoule. Produk ini sangat lembut dan cocok untuk kulit yang rentan terhadap iritasi. Anda dapat menemukan lebih banyak informasi dan membeli produk ini dengan mengklik tautan di bawah ini. Link Produk : <a href=https://www.sociolla.com/skincare/34636-madagascar-centella-ampoule target= _blank > https://www.sociolla.com/skincare/34636-madagascar-centella-ampoule</a> "
+      ]
+    },
+    {
+      "tag": "skin_problems1",
+      "patterns": [
+        "Saya sering mengalami jerawat.",
+        "Jerawat sering muncul di wajah saya.",
+        "Bagaimana cara mengatasi masalah jerawat?",
+        "Kulit saya rentan terhadap jerawat.",
+        "Jerawat seringkali menjadi masalah kulit saya."
+      ],
+      "responses": [
+        "Untuk jerawat, Anda bisa mencoba produk yang mengandung asam salisilat atau benzoyl peroxide. Produk ini membantu membersihkan pori-pori dan mengurangi peradangan."
+      ]
+    },
+
+    {
+      "tag": "skin_problems2",
+      "patterns": [
+        "Apakah Anda memiliki saran untuk jerawat?",
+        "Bagaimana cara mengatasi jerawat?",
+        "Jerawat selalu menjadi masalah, apakah ada yang bisa membantu?",
+        "Saya butuh saran untuk mengatasi jerawat.",
+        "Apa rekomendasi Anda untuk masalah kulit jerawat?"
+      ],
+      "responses": [
+        "Jika Anda mencari solusi untuk jerawat, produk dengan ekstrak tea tree oil dapat membantu mengatasi jerawat."
+      ]
+    },
+
+    {
+      "tag": "skin_problems3",
+      "patterns": [
+        "Bagaimana cara mengatasi kulit kemerahan?",
+        "Kulit saya sering merah, ada saran untuk mengatasi?",
+        "Apa yang sebaiknya dilakukan untuk kulit yang merah?",
+        "Saya memiliki masalah dengan kulit kemerahan, ada solusi?",
+        "Bagaimana mengurangi kemerahan pada kulit?"
+      ],
+      "responses": [
+        "Kulit kemerahan sering kali memerlukan perlindungan dari sinar matahari. Selalu gunakan tabir surya ketika berada di luar ruangan."
+      ]
+    },
+
+    {
+      "tag": "skin_problems4",
+      "patterns": [
+        "Kulit saya terasa sangat sensitif. Ada yang bisa Anda rekomendasikan?",
+        "Saya memiliki masalah dengan kulit yang sangat sensitif.",
+        "Bagaimana mengatasi kulit yang mudah iritasi?",
+        "Kulit saya reaktif terhadap banyak produk. Apa yang sebaiknya saya gunakan?",
+        "Saya mencari solusi untuk kulit yang sangat sensitif."
+      ],
+      "responses": [
+        "Untuk masalah kulit sensitif, gunakan produk perawatan kulit yang hypoallergenic dan bebas pewangi."
+      ]
+    },
+
+    {
+      "tag": "skin_problems5",
+      "patterns": [
+        "Kulit saya terlihat kusam. Ada yang bisa saya coba?",
+        "Saya ingin mencari solusi untuk kulit yang terlihat kusam.",
+        "Bagaimana cara membuat kulit terlihat lebih cerah?",
+        "Kulit saya tidak segar, apa yang sebaiknya saya lakukan?",
+        "Apakah ada produk yang dapat membantu kulit terlihat lebih cerah?"
+      ],
+      "responses": [
+        "Untuk kulit kusam, coba eksfoliasi kulit Anda secara teratur dan gunakan produk yang mengandung vitamin C untuk mencerahkan kulit."
+      ]
+    },
+
+    {
+      "tag": "skin_problems6",
+      "patterns": [
+        "Apa yang bisa saya gunakan untuk kulit berminyak?",
+        "Saya memiliki masalah dengan kulit yang terlalu berminyak.",
+        "Bagaimana cara mengatasi produksi minyak berlebih di kulit?",
+        "Saya mencari produk untuk mengontrol minyak pada kulit saya.",
+        "Apa rekomendasi Anda untuk perawatan kulit berminyak?"
+      ],
+      "responses": [
+        "Kulit berminyak akan mendapatkan manfaat dari pembersih wajah yang mengandung asam salisilat dan pelembap yang ringan."
+      ]
+    },
+
+    {
+      "tag": "skin_problems7",
+      "patterns": ["Apa yang bisa membantu kulit saya yang penuaan dini?"],
+      "responses": [
+        "Untuk mengurangi tanda-tanda penuaan dini, tambahkan serum dengan asam hialuronat dan antioksidan ke dalam rutinitas perawatan kulit Anda."
+      ]
+    },
+    {
+      "tag": "skin_problems8",
+      "patterns": ["Bagaimana saya bisa merawat kulit saya di musim panas?"],
+      "responses": [
+        "Di musim panas, penting untuk selalu menggunakan tabir surya dan menghindari paparan berlebihan terhadap sinar matahari."
+      ]
+    },
+    {
+      "tag": "skin_problems9",
+      "patterns": [
+        "Apa produk perawatan kulit yang aman untuk kulit sensitif?"
+      ],
+      "responses": [
+        "Untuk kulit sensitif, gunakan produk perawatan kulit yang tidak mengandung pewangi atau bahan-bahan keras."
+      ]
+    },
+    {
+      "tag": "skin_problems10",
+      "patterns": [
+        "Apa yang bisa saya lakukan untuk mengurangi noda hitam di wajah saya?"
+      ],
+      "responses": [
+        "Noda hitam di wajah dapat diatasi dengan produk yang mengandung bahan pemutih seperti asam kojat atau vitamin C."
+      ]
+    },
+    {
+      "tag": "skin_problems11",
+      "patterns": ["Kulit saya terasa kasar. Ada yang bisa membantu?"],
+      "responses": [
+        "Kulit kasar sering memerlukan eksfoliasi. Cobalah scrub wajah yang lembut."
+      ]
+    },
+    {
+      "tag": "skin_problems12",
+      "patterns": ["Apa produk perawatan kulit alami yang bagus?"],
+      "responses": [
+        "Produk perawatan kulit alami seperti minyak kelapa atau madu dapat membantu menjaga kulit tetap sehat."
+      ]
+    },
+    {
+      "tag": "skin_problems13",
+      "patterns": ["Saya mencari pelembap yang cocok untuk kulit saya."],
+      "responses": [
+        "Pelembap yang cocok untuk kulit Anda tergantung pada jenis kulit Anda. Pastikan untuk memilih yang sesuai."
+      ]
+    },
+    {
+      "tag": "skin_problems14",
+      "patterns": [
+        "Saya ingin memperbaiki tekstur kulit saya. Apa yang Anda sarankan?"
+      ],
+      "responses": [
+        "Untuk memperbaiki tekstur kulit, coba produk yang mengandung asam glikolat atau asam laktat."
+      ]
+    },
+    {
+      "tag": "skin_problems15",
+      "patterns": ["Bagaimana cara memperbaiki kulit yang terbakar matahari?"],
+      "responses": [
+        "Kulit yang terbakar matahari memerlukan perawatan yang lembut. Gunakan pelembap yang mengandung aloe vera."
+      ]
+    },
+    {
+      "tag": "skin_problems16",
+      "patterns": [
+        "Saya memiliki bekas luka jerawat yang membandel. Ada yang bisa membantu?"
+      ],
+      "responses": [
+        "Stres dapat mempengaruhi kulit. Selain perawatan kulit, cobalah teknik relaksasi untuk mengurangi stres."
+      ]
+    },
+    {
+      "tag": "skin_problems",
+      "patterns": [
+        "Kulit saya sering berjerawat saat stres. Bagaimana mengatasinya?"
+      ],
+      "responses": [
+        "Bekas luka jerawat bisa diatasi dengan produk yang mengandung asam salisilat atau ekstrak bawang putih."
+      ]
+    },
+    {
+      "tag": "treatment_time",
+      "patterns": ["Saya mencari produk perawatan untuk pagi hari"],
+      "responses": [
+        "Bagus! Perawatan kulit pagi sangat penting. Saya merekomendasikan langkah-langkah perawatan pagi, termasuk membersihkan wajah, menggunakan serum dengan antioksidan, dan mengaplikasikan tabir surya untuk melindungi kulit dari sinar matahari."
+      ]
+    },
+    {
+      "tag": "treatment_time1",
+      "patterns": ["Saya ingin perawatan kulit malam yang efektif"],
+      "responses": [
+        "Tentu, perawatan malam sangat penting untuk pemulihan kulit. Saya merekomendasikan pembersihan wajah, penggunaan serum regenerasi atau retinol, dan pelembap malam yang kaya."
+      ]
+    },
+    {
+      "tag": "treatment_time2",
+      "patterns": ["Saya ingin perawatan pagi dan malam hari"],
+      "responses": [
+        "Baik! Perawatan dua kali sehari adalah pilihan yang baik. Pagi, Anda dapat membersihkan wajah, menggunakan serum antioksidan, dan tabir surya. Malam, Anda bisa membersihkan wajah, menggunakan serum regenerasi atau retinol, dan pelembap malam."
+      ]
+    },
+    {
+      "tag": "treatment_time3",
+      "patterns": ["Saya tidak yakin kapan harus merawat kulit saya"],
+      "responses": [
+        "Tidak masalah! Saya bisa membantu Anda membuat rutinitas perawatan kulit yang sesuai. Apakah Anda lebih suka perawatan pagi, malam, atau keduanya? Atau apa yang ingin Anda fokuskan dalam perawatan Anda?"
+      ]
+    },
+    {
+      "tag": "product_ingredients",
+      "patterns": [
+        "Saya mencari produk perawatan kulit yang mengandung bahan alami",
+        "Saya mencari produk perawatan kulit yang mengandung bahan-bahan kimia yang efektif",
+        "Saya ingin produk perawatan kulit yang mengandung vitamin C",
+        "Kulit saya sering merah dan sensitif, saya mencari produk yang mengandung bahan penenang",
+        "Saya tidak tahu produk dengan bahan apa yang saya butuhkan"
+      ],
+      "responses": [
+        "Tentu, produk perawatan kulit dengan bahan alami seringkali lebih lembut untuk kulit. Saya merekomendasikan produk dengan bahan-bahan seperti aloe vera, teh hijau, atau minyak alami seperti minyak argan.",
+        "Bahan-bahan kimia tertentu seperti asam salisilat atau retinol dapat sangat efektif dalam mengatasi masalah kulit. Namun, pastikan untuk menggunakan produk ini sesuai dengan petunjuk penggunaan.",
+        "Vitamin C adalah bahan yang bagus untuk mencerahkan kulit dan mengurangi tanda-tanda penuaan. Saya merekomendasikan produk yang mengandung vitamin C stabil dan cocok untuk kulit Anda.",
+        "Untuk kulit sensitif, produk dengan bahan penenang seperti aloe vera atau ekstrak chamomile dapat membantu mengurangi kemerahan dan iritasi.",
+        "Itu tidak masalah! Saya dapat membantu Anda menentukan produk dengan bahan yang sesuai. Apakah Anda memiliki preferensi terkait bahan tertentu atau masalah kulit yang ingin Anda atasi?"
+      ]
+    },
+    {
+      "tag": "user_age",
+      "patterns": [
+        "Saya masih remaja, usia saya sekitar 16 tahun",
+        "Saya berusia 28 tahun dan ingin menjaga kulit saya tetap sehat",
+        "Saya berusia 50 tahun dan khawatir tentang tanda-tanda penuaan",
+        "Saya tidak tahu harus menyebutkan usia saya"
+      ],
+      "responses": [
+        "Itu bagus! Perawatan kulit remaja biasanya melibatkan pembersihan ringan, penggunaan tabir surya, dan menjaga kelembapan kulit. Ini adalah langkah-langkah penting untuk menjaga kulit sehat",
+        "Anda berada pada usia yang tepat untuk memulai perawatan anti-penuaan dini. Saya merekomendasikan penggunaan serum antioksidan dan tabir surya setiap hari untuk melindungi kulit Anda dari kerusakan matahari.",
+        "Pada usia ini, perawatan penuaan dini menjadi lebih penting. Saya merekomendasikan produk dengan retinol, peptida, dan pelembap yang kaya untuk menjaga kekenyalan kulit Anda.",
+        "Tidak masalah, Anda tidak perlu menyebutkan usia Anda jika tidak nyaman. Saya dapat memberikan rekomendasi produk perawatan kulit berdasarkan jenis kulit atau masalah kulit yang Anda miliki. Apa yang ingin Anda fokuskan dalam perawatan kulit Anda?"
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": [
+        "Terima kasih!",
+        "Sangat membantu, terima kasih!",
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Sama-sama! Jangan ragu untuk menghubungi kami jika Anda membutuhkan bantuan lebih lanjut.",
+        "Tidak masalah! Kami di sini untuk membantu. Jangan ragu untuk bertanya jika Anda memiliki pertanyaan lain.",
+        "Senang bisa membantu! Jangan sungkan untuk kembali jika Anda membutuhkan bantuan tambahan.",
+        "Tentu saja! Jangan ragu untuk menghubungi kami kapan saja.",
+        "Sama-sama! Jika ada pertanyaan lain atau bantuan yang diperlukan, jangan ragu untuk memberi tahu kami."
+      ]
+    },
+    {
+      "tag": "not_found",
+      "patterns": [
+        "Tidak ada pertanyaan yang sesuai",
+        "Saya tidak menemukan pertanyaan yang cocok",
+        "Tidak ada yang relevan",
+        "Saya tidak mengerti",
+        "Bisakah Anda menjelaskan lebih lanjut?"
+      ],
+      "responses": [
+        "Maaf, sepertinya saya tidak dapat menemukan pertanyaan yang sesuai. Apakah ada yang lain yang dapat saya bantu?",
+        "Tampaknya pertanyaan Anda tidak cocok dengan yang ada di daftar saya. Bisa Anda beri tahu lebih detail atau ajukan pertanyaan lain?",
+        "Mohon maaf, saya tidak dapat menemukan pertanyaan yang sesuai dengan yang ada di daftar saya. Apakah Anda ingin bertanya tentang sesuatu yang spesifik?",
+        "Saya minta maaf, sepertinya pertanyaan Anda tidak sesuai dengan yang telah saya siapkan. Bisakah Anda memberikan informasi lebih lanjut atau ajukan pertanyaan lain?",
+        "Saya tidak yakin dengan pertanyaan ini. Bisakah Anda memberikan informasi lebih lanjut atau ajukan pertanyaan lain yang mungkin bisa saya bantu?"
+      ]
+    },
+
+    {
+      "tag": "feedback",
+      "patterns": [
+        "Saya ingin memberikan umpan balik tentang layanan Anda.",
+        "Bagaimana umpan balikmu dengan rekomendasi produk yang telah diberikan?",
+        "Bagaimana pengalamanmu menggunakan layanan perawatan kulit di SmartSkin?",
+        "Apa pendapatmu tentang SmartSkin?",
+        "Apakah kamu puas dengan layanan SmartSkin?",
+        "Bagaimana tanggapanmu terhadap pengalaman menggunakan SmartSkin?",
+        "Bagaimana penilaianmu terhadap layanan SmartSkin?",
+        "Bagaimana kesanmu setelah mendapatkan saran perawatan kulit dari SmartSkin?",
+        "Bisakah kamu berbagi feedback tentang perawatan kulit di SmartSkin?",
+        "Apakah kamu memiliki komentar atau saran untuk SmartSkin terkait perawatan kulit?"
+      ],
+      "responses": [
+        "Kami sangat menghargai umpan balik Anda! Silakan beri tahu kami apa yang dapat kami perbaiki atau apa yang Anda sukai dari layanan kami.",
+        "Terima kasih telah memilih SmartSkin sebagai pilihan konsultasi permasalahan kulit Anda! Kami siap untuk memberikan layanan terbaik untuk perawatan kulit Anda. Jika Anda memiliki pertanyaan tambahan atau butuh bantuan lebih lanjut, jangan ragu untuk menghubungi layanan SmartSkin. Sampai Jumpa!",
+        "Terima kasih telah memilih SmartSkin sebagai pilihan konsultasi permasalahan kulit Anda! Untuk keluhan dan masalah dalam respon yang kurang silakan mengisi form feedback berikut ini:"
+      ]
+    }
+  ]
+}
